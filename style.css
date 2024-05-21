@@ -1,0 +1,512 @@
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    width: 100%;
+    height: 20px;
+    background: white;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.btn-abrir-menu i {
+    display: none;
+}
+
+.logo {
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.menu-nubank {
+    max-width: 100%;
+    float: left;
+}
+
+.fa-solid { /*Responsável pela seta para baixo */
+    margin-left: 10px;
+}
+
+.menu-nubank li {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu-nubank a {
+    display: block;
+    text-decoration: none; /*Retirar as linhas abaixo do nome */
+    color: black;
+    font-size: 18px;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+
+}
+
+.login li {
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 70px;
+    margin-top: 10px;
+}
+
+.login {
+    float: right;
+}
+
+.login a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+/*Inicio Imagem*/
+.imagem {
+    background: url(img/img1.png) no-repeat center center;
+    background-size: cover;
+    height: 865px;
+}
+
+.imagem h1 {
+    padding: 370px 0 0 0;
+    margin-left: 220px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.imagem h2 {
+    margin-left: 220px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/* .imagem h2:hover {
+    text-decoration: underline;
+caso queira quando passar o mouse, a linha apareça abaixo do nome */
+
+.form {
+    box-sizing: border-box;
+    background: white;
+    max-width: 330px;
+    height: 300px;
+    float: right;
+    border-radius: 8px; /*Borda redonda */
+    text-align: left;
+    padding: 20px;
+    margin-top: -205px;
+    margin-right: 40px;
+}
+
+.form h3 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.name {
+    color: #585858;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.bto {
+    background: #820ad1;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.bto:hover {
+    background-color: black;
+}
+
+.campo {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+/*Fim Imagem*/
+
+/*Incio Secao 2*/
+.secao2 {
+    height: 800px;
+    background: white;
+}
+
+.secao2 h2 {
+    text-align: left;
+    font-family: 'Cabins', sans-serif;
+    font-size: 48px;
+    margin-left: 400px;
+    margin-top: 270px;
+}
+
+.secao2 h3 {
+    text-align: left;
+    font-family: 'Cabins', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 15px;
+}
+
+.secao2 h2 a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+.img-cartao {
+    float: left;
+    width: 45%;
+    margin-top: 200px;
+}
+
+.cartao {
+    float: left;
+    width: 55%;
+}
+
+.link2 {
+    margin-left: 400px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.link2:hover {
+    color: black;
+}
+/*Fim Secao 2 */
+
+/*Inicio Secao 3*/
+.secao3 {
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao3 h2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    
+    margin-left: 220px;
+}
+
+.secao3 h2 a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+.secao3 h3 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 220px;
+    margin-bottom: 23px;
+}
+
+.link3 {
+    margin-left: 220px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.link3:hover {
+    color: black;
+}
+
+.cartao-ultra {
+    width: 45%;
+    float: left;
+    margin-top: 350px;    
+}
+
+.violeta {
+    float: left;
+    margin-top: 200px;
+    margin-left: 195px;
+}
+/*Fim Secao 3 */
+
+/*Inicio Secao 4 */
+.secao4 {
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao4 h2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    margin-left: 400px;
+}
+
+.secao4 h2 a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+.secao4 h3 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 23px;
+}
+
+.link4 {
+    text-decoration: none;
+    margin-left: 400px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.link4:hover {
+    color: black;
+}
+
+.nu-cartao {
+    width: 55%;
+    float: left;
+    margin-top: 350px;
+}
+
+.cartao-4 {
+    width: 45%; /*Caso com um margin-left a img vá para baixo, é preciso trocar os width */
+    float: left;
+    margin-top: 217px;
+}
+/*Fim Secao 4 */
+
+/*Inicio Secao 5 */
+.secao5 {
+    background: url(img/img5.png) no-repeat center center;
+    background-size: cover;
+    height: 860px;
+}
+
+.secao5 h2 {
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.link5 {
+    margin-left: 500px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.link5:hover {
+    color: #820ad1;
+}
+
+.secao6 {
+    background: url(img/img6.png) no-repeat center center;
+    background-size: cover;
+    height: 860px;
+}
+
+.secao6 h2 {
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.link6 {
+    margin-left: 500px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.link6:hover {
+    color: #820ad1;
+}
+
+.secao7 {
+    background: url(img/img7.png) no-repeat center center;
+    background-size: cover;
+    height: 860px;
+}
+
+.secao7 h2 {
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.link7 {
+    margin-left: 500px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.link7:hover {
+    color: #820ad1;
+}
+/*Fim Secao 5 */
+
+/*Inicio Rodape 1 */
+.rodape1 {
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+}
+
+.rodape2 {
+    width: 100%;
+    height: 600px;
+    background-color: #111111;
+}
+
+.sec-1 {
+    width: 23%;
+    float: left;
+}
+
+.sec-2 {
+    width: 23%;
+    float: left;
+}
+
+.sec-3 {
+    width: 23%;
+    float: left;
+}
+
+.sec-4 {
+    width: 23%;
+    float: left;
+}
+
+.sec-1, .sec-2, .sec-3, .sec-4 {
+    margin-top: 150px;
+}
+
+.sec-1 a, .sec-2 a, .sec-3 a, .sec-4 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.sec-1 li, .sec-2 li, .sec-3 li, .sec-4 li {
+    padding-left: 8%;
+    list-style: none;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+}
+
+.sec-1 h2, .sec-2 h2, .sec-3 h2, .sec-4 h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-left: 8%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.sec-1 li a:hover {
+    color: #820ad1;
+}
+
+.sec-2 li a:hover {
+    color: #820ad1;
+}
+
+.sec-3 li a:hover {
+    color: #820ad1;
+}
+
+.sec-4 li a:hover {
+    color: #820ad1;
+}
+/*Fim Rodape 1 */
+
+/*Inicio Rodape 3 */
+.rodape3 {
+    width: 100%;
+    height: 110px;
+    background-color: #111111;
+    border-top: solid 1px #191919;
+    border-bottom: solid 1px #191919;
+}
+
+.imgrodape {
+    padding: 30px;
+    float: left;
+}
+
+.rodape3 p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 30px;
+    float: left;
+}
+
+.redes {
+    float: right;
+    list-style: none;
+}
+
+.redes li {
+    display: inline-block;
+    padding-right: 30px;
+    
+}
+
+.redes i {
+    color: white;
+    font-size: 21px;
+}
+
+.redes i:hover {
+    color: #820ad1;
+}
+/*Fim Rodape 3 */

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalmente você no controle do seu dinheiro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googlepis.com/css2?family=Cabin&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0074fadf6f.js" crossorigin="anonymous"></script>
+
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <header class="menu">
+        <div>
+            <a class="logo" href="#"><img src="img/logo.png" alt="logo do nubank"></a>
+        </div>
+
+        <nav class="menu-nubank">
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Para Você <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">Para Seu Negócio <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">O Nubank <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">Perguntas</a></li>
+            </ul>
+        </nav>
+        <!--PARA SMARTPHONE-->
+        <div class="btn-abrir-menu" id="btn-menu"> <!--Lista para abrir o menu no mobile-->
+            <i class="fa-solid fa-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile"> <!--ID tem mesma função de class, mas o id é para JAVA-->
+            <div class="btn-fechar">
+                <i class="fa-solid fa-x"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Para Você <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Para Seu Negócio <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">O Nubank <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Perguntas</a></li>
+                </ul>
+
+                <ul class="login-mobile">
+                    <li><a href="login.html">Login <i class="fa-solid fa-right-from-bracket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+        <!--FIM DO SMARTPHONE-->
+        <ul class="login">
+            <li><a href="login.html">Login <i class="fa-solid fa-right-from-bracket"></i></a></li>
+        </ul>
+    </header>
+
+<!--Inicio Imagem após topo-->
+    <section class="imagem">
+        <h1>O futuro é a razão que a gente faz <br> planos.</h1>
+        <h2>Escolha o futuro. Comece a controlar sua vida financeira <br> com o Nubank</h2>
+
+        <div class="form">
+            <h3>Peça sua conta <br> e cartão de crédito do Nubank</h3>
+            <label for="cpf"><span class="name">Digite seu CPF<span>
+                <input type="tel" class="campo">
+            </label>
+
+            <button type="submit" class="bto">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+<!--Fim Imagem-->
+
+<!--Inicio Secao 2-->
+    <section class="secao2">
+        <div class="cartao">
+            <h2><a href="#">Cartão de Crédito</a></h2>
+            <h3>Pode chamar ele de roxinho <br> Além disso, pode <br> chamar ele de moderno <br> gratuito e prático também.</h3>
+            <a href="#" class="link2">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="img-cartao">
+            <img src="img/img2.png" >
+        </div>
+    </section>
+<!--Fim Secao 2-->
+
+<!--Inicio Secao 3-->
+    <section class="secao3">
+        <div class="cartao-ultra">
+            <h2><a href="#">Nubank Ultravioleta</a></h2>
+            <h3>O cartão pensado para quem quer <br> ver além.</h3>
+            <a href="#" class="link3">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="cartao-3">
+            <img src="img/img3.png" class="violeta">
+        </div>
+    </section>
+<!--Fim Secao 3-->
+
+<!--Inicio Secao 4-->
+    <section class="secao4">
+        <div class="nu-cartao">
+            <h2><a href="#">Conta Nubank</a></h2>
+            <h3>A conta que vai levar você <br> ao controle da sua vida <br> financeira.</h3>
+            <a href="#" class="link4">Sem tarifas e sem complicações <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="cartao-4">
+            <img src="img/img4.png">
+        </div> <!--A imagem estará na mesma SESSÃO, NÃO NA MESMA DIV, UMA DIV responsável por text e outra img-->
+    </section>
+<!--Fim Secao 4-->
+
+<!--Inicio Secao 5, 6, 7-->
+    <section class="secao5">
+        <h2>Nós acreditamos que só <br> uma pessoa pode ter <br> controle sobre sua vida <br> financeira: você</h2>
+        <a href="#" class="link5">Saiba como fazemos isso! <i class="fa-solid fa-arrow-right"></i></a>
+    </section>
+
+    <section class="secao6">
+        <h2>NuCommunity <br> A comunidade oficial do <br> Nubank para você tirar <br> dúvidas e compartilhar <br> ideias.</h2>
+        <a href="#" class="link6">Faça Parte <i class="fa-solid fa-square-up-right"></i></a>
+    </section>
+
+    <section class="secao7">
+        <h2>Muita informação e <br> conteúdo para você <br> encontrar a melhor <br> versão da sua vida <br> financeira</h2>
+        <a href="#" class="link7">Fala, Nubank! <i class="fa-solid fa-square-up-right"></i></a>
+    </section>
+<!--Fim Secao 5, 6, 7-->
+
+<!--Rodape 1-->
+    <div class="rodape1">
+        <div class="sec-1">
+            <h2>Nubank</h2>
+            <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Perguntas Frequentes</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">Nu Impacto <i class="fa-solid fa-square-up-right"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="sec-2">
+            <h2>Produtos</h2>
+            <ul>
+                <li><a href="#">Conta Digital</a></li>
+                <li><a href="#">Cartão de Crédito</a></li>
+                <li><a href="#">Nubank Ultravioleta</a></li>
+                <li><a href="#">Empréstimos</a></li>
+                <li><a href="#">Conta PJ</a></li>
+                <li><a href="#">Cartão de Crédito PJ</a></li>
+                <li><a href="#">Nubank Vida</a></li>
+                <li><a href="#">Investimentos</a></li>
+            </ul>
+        </div>
+
+        <div class="sec-3">
+            <h2>Explore</h2>
+            <ul>
+                <li><a href="#">Comunidade <i class="fa-solid fa-square-up-right"></i></a></li>
+                <li><a href="#">Blog <i class="fa-solid fa-square-up-right"></i></a></li>
+                <li><a href="#">InvestNews <i class="fa-solid fa-square-up-right"></i></a></li>
+                <li><a href="#">Newsletter <i class="fa-solid fa-square-up-right"></i></a></li>
+                <li><a href="#">México <i class="fa-solid fa-square-up-right"></i></a></li>
+                <li><a href="#">Argentina <i class="fa-solid fa-square-up-right"></i></a></li>
+                <li><a href="#">Colômbia <i class="fa-solid fa-square-up-right"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="sec-4">
+            <h2>Veja Também</h2>
+            <ul>
+                <li><a href="#">Auxilio Emergencial e FGTS <i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="#">Tudo sobre o Pix</a></li>
+            </ul>
+        </div>
+    </div>
+<!--Fim Rodape 1-->
+
+<!--Inicio Rodape 2-->
+    <div class="rodape2">
+        <div class="sec-1">
+            <h2>Transparência</h2>
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Política de Compliance</a></li>
+                <li><a href="#">Contratos</a></li>
+                <li><a href="#">Política de Segurança</a></li>
+                <li><a href="#">Relatórios Financeiros</a></li>
+                <li><a href="#">Ética & Compliance</a></li>
+                <li><a href="#">Dados Abertos</a></li>
+                <li><a href="#">SCR</a></li>
+                <li><a href="#">Convenção de Boletos</a></li>
+            </ul>
+        </div>
+
+        <div class="sec-2">
+            <h2>Ouvidoria</h2>
+            <ul>
+                <li><a href="#">0800 887 0463</a></li>
+                <li><a href="#">ouvidoria@nubank.com.br</a></li>
+                <li><a href="#">Atendimento das 9h às 18h (dias úteis)</a></li>
+            </ul>
+        </div>
+
+        <div class="sec-3">
+            <h2>Fale com a gente</h2>
+            <ul>
+                <li><a href="#">0800 608 6236</a></li>
+                <li><a href="#">meajuda@nubank.com.br</a></li>
+                <li><a href="#">Atendimento 24 h</a></li>
+            </ul>
+        </div>
+
+        <div class="sec-4">
+            <h2>Baixe o app</h2>
+            <ul>
+                <li><img src="img/applestore.png"  ></a></li>
+                <li><img src="img/playstore.png"  ></a></li>
+            </ul>
+        </div>
+    </div>
+<!--Fim Rodape 2-->
+
+<!--Inicio Rodape 3-->
+    <div class="rodape3">
+        <img class="imgrodape" src="img/logonurodape.png" >
+        <p>&copy; 2024 Nu Pagamentos S.A - Instituição de Pagamento. 18.236.120/0001-58 <br> Rua Capote Valente, 39 - São Paulo, SP - 05409-000 <br> Luan Monteiro Pedrosa</p>
+        <ul class="redes">
+            <li><a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1661784632&extra_1=s%7Cc%7C513440386732%7Ce%7Cfacebook%7C&placement=&creative=513440386732&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661784632%26adgroupid%3D63686352403%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9101472%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0GogLKbPUDgQmTp5ezJawJGrS8dybHmXhcZDdumIs2dL5EnVRwdhD2uUaAu6yEALw_wcB"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+<!--Fim Rodape 3-->
+</body>
+</html>
