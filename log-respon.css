@@ -1,0 +1,133 @@
+/*Responsivo Smartphone*/
+@media (width <= 370px) {
+
+    .logo-mobile{
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .inicial {
+        display: none;
+    }
+
+    .container form {
+        width: 100%;
+    }
+
+    .login h1 {
+        margin: 4px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .card-usr {
+        margin-left: -246px;
+    }
+
+    .card-pass {
+        margin-left: -246px;
+    }
+
+    .card-pass i {
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    .continuar button {
+        margin-left: 1px;
+        width: 100%;
+    }
+
+    .rodape {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        bottom: 0;
+    }
+
+    .rodape a:first-child { /*Usa o 1º elemento filho*/
+        margin-left: -60px;
+        margin-top: 40px;
+        font-size: 18px; 
+    }
+
+    .rodape a:nth-child(2) { /*Usa o 2º elemento filho*/
+        margin-top: 40px;
+        font-size: 18px;
+        margin-left: 140px;
+    }
+}
+
+@media (width >= 371px) and (width <= 576px) { /*Para celulares maiores*/
+    .logo-mobile{
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .inicial {
+        display: none;
+    }
+
+    .container form {
+        width: 100%;
+    }
+
+    .login h1 {
+        margin: 4px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card-usr  {
+        margin-left: -240px;
+    }
+
+    .card-pass {
+        margin-left: -240px;
+    }
+
+    .continuar button {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .rodape {
+        width: 100%;
+        height: 15%;
+    }
+
+    .rodape a:first-child { /*Usa o 1º elemento filho*/
+        margin-left: -35px;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .rodape a:nth-child(2) { /*Usa o 2º elemento filho*/
+        margin-top: 40px;
+        font-size: 18px;
+        margin-left: 145px;
+    }
+    
+}
+/*Responsivo Tablet*/
+@media (width >= 577px )and (width <= 768px) {
+    .container img{
+        display: none;
+    }
+
+    .login h1 {
+        color: yellow;
+    }
+}
+/*Responsivo Tablet Grande*/
+@media (width <= 992px) {
+
+}
+/*Responsivo Desktop*/
+@media (width <= 1200px) {
+
+}
