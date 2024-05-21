@@ -1,0 +1,189 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /*Adicionado para evitar rolagem na página*/
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container form {
+    width: 50%;
+    height: 85%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background: #000000;
+}
+
+.login h1 {
+    margin-left: 250px;
+    margin-top: -75px;
+    color: #e0e0e0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.card-usr {
+    margin-bottom: 20px;
+}
+
+.card-usr label {
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    color:#e0e0e0;
+    display: block;
+    margin-left: 250px;
+    opacity: 0.7;
+}
+
+.card-usr input {
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #222222;
+    color: #bc84f7;
+    font-size: 25px
+}
+
+.card-pass label {
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    color: #e0e0e0;
+    display: block;
+    margin-left: 250px;
+    opacity: 0.7;
+}
+
+.card-pass input {
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #222222;
+    color: #bc84f7;
+    font-size: 25px
+}
+
+.card-pass p {
+    color: #e0e0e0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-left: 250px;
+}
+
+.card-pass i {
+    color: #696969;
+    position: absolute;
+    margin-left: -38px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.continuar button {
+    width: 45%;
+    height: 60px;
+    margin-left: 270px;
+    margin-top: 35px;
+    font-family: 'Cabin', sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /*Curvatura*/
+    background-color: #222222;
+    color: #696969;
+    font-size: 19px;
+}
+
+.continuar i {
+    margin-left: 22px;
+}
+
+.continuar button:hover {
+    background-color: #820ad1;
+    color: white;
+}
+
+.rodape{
+    width: 50%;
+    height: 20%;
+    background-color: #222222;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: -20px;
+    bottom: 0;/*Fez com que o rodape não tivesse bottom, independente zoom*/
+}
+
+.rodape a {
+    font-family: 'Cabins', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #bc84f7;
+    margin-top: 90px;
+    left: 80px;
+}
+
+.rodape a:hover{
+    color: #9d71cd;
+}
+
+.esqueci-senha {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+
+.no-cliente{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 530px;
+}
+
+.error {
+    color: red;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -35px;
+    font-family: 'Cabins', sans-serif;
+}
+
+.error-icon {
+    margin-right: 10px;
+}
+
+.fault {
+    color: red;
+    position: absolute;
+    margin-left: 308px;
+    margin-top: -30px;
+    font-family: 'Cabins', sans-serif;
+}
+
+.card-pass span i{
+    color: red;
+    margin-top: 2px;
+    margin-left: -26px;
+}
+/*Até 150% de zoom possui imagem, após isso, somente form*/
+/*Foi preciso adicionar cada funçõo nos a do rodape,
+pois sem eles, os a ficariam juntos*/
